@@ -8,7 +8,7 @@ const PrivateRouter = () => {
   const handleAlert = () => {
     Swal.fire({
       title: "Login",
-      text: "You are noy be able to Search",
+      text: "You are not be able to view Details",
       icon: "warning",
       showCancelButton: false,
       confirmButtonColor: "#00F200",

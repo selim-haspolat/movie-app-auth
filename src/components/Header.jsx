@@ -15,7 +15,7 @@ const Header = ({ setMovieName }) => {
     } else {
       Swal.fire({
         title: "Login",
-        text: "You are noy be able to Search",
+        text: "You are not be able to Search",
         icon: "warning",
         showCancelButton: false,
         confirmButtonColor: "#00F200",
