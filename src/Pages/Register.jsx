@@ -11,7 +11,8 @@ const Register = () => {
   const navigate = useNavigate()
 
 
-  const registerUser = async() => {
+  const registerUser = async(e) => {
+    e.preventDefault()
     try {
       const user = await createUserWithEmailAndPassword(auth,registerData.email,registerData.password)
       setUser(user.user.email)

@@ -10,7 +10,8 @@ const Login = () => {
   const { setUser } = useContext(UserContext)
   const navigate = useNavigate()
 
-  const loginUser = async() => {
+  const loginUser = async(e) => {
+    e.preventDefault()
     try {
       const user = await signInWithEmailAndPassword(auth,loginData.email,loginData.password)
       setUser(user.user.email)
