@@ -4,7 +4,7 @@
 ...
 
 ## Live
-movie-app-auth.vercel.app
+https://movie-app-auth.vercel.app/
 
 ## Gif
 ![movie-app](https://user-images.githubusercontent.com/118964736/224774527-b23c8caf-9617-47c2-b637-84cdcb0c0a00.gif)
